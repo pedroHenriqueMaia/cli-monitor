@@ -1,0 +1,24 @@
+{
+  "name": "cli-monitor",
+  "version": "1.0.0",
+  "author": "Pedro Henrique Maia",
+  "license": "ISC",
+  "description": "Uma CLI para monitoramento do sistema em tempo real, oferecendo informações sobre uso da CPU, memória disponível e outras métricas essenciais diretamente no terminal.",
+  "main": "dist/cli.js",
+  "bin": {
+    "monitor": "./dist/cli.js"
+  },
+  "scripts": {
+    "install-build": "npm install && npm run build",
+    "build": "tsc"
+  },
+  "keywords": [
+    "Monitor",
+    "CPU",
+    "Memory"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.12.5",
+    "typescript": "^5.4.4"
+  }
+}
