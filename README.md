@@ -1,4 +1,4 @@
-# cli-monitor
+# cli-monitor (mentoria)
 
 1. Instale as dependências e faça o build do projeto:
     ```bash
